@@ -1,0 +1,524 @@
+*{
+  scroll-behavior: smooth;
+}
+.section-body {
+  margin: 3rem 0;
+}
+
+.section-button {
+  width: 9rem;
+  height: 9rem;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1rem;
+  background-color: transparent;
+  font-family: var(--font-fira_sans);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: color ease-in-out 0.1s, background-color ease-in-out 0.1s;
+}
+
+.section-button:hover {
+  cursor: pointer;
+}
+
+#section-welcome h1 {
+  text-transform: uppercase;
+}
+
+/* Club History */
+
+#section-clubhistory header > h2 {
+  color: var(--color-primary);
+}
+
+#section-clubhistory header > button {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+#section-clubhistory header > button:hover {
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+}
+
+#section-clubhistory .body-item {
+  width: 30rem;
+  height: 15rem;
+  margin-bottom: 3rem;
+}
+
+#section-clubhistory .body-item > p {
+  color: var(--color-black);
+  font-family: var(--font-open_sans);
+  font-size: 1.8rem;
+}
+
+/* President */
+
+#section-president {
+  background-color: var(--color-primary);
+}
+
+#section-president header > h2 {
+  color: var(--color-white);
+}
+
+#section-president .section-body {
+  justify-content: space-evenly;
+  gap: 8rem;
+}
+
+#section-president .body-item {
+  width: 56rem;
+  height: 26rem;
+}
+
+#section-president .body-item:first-child {
+  width: 88rem;
+}
+
+#section-president .body-item > p {
+  color: var(--color-white);
+  font-family: var(--font-open_sans);
+  font-size: 1.8rem;
+}
+
+/* Sports & Health */
+
+#section-sportsnhealth header > h2 {
+  color: var(--color-primary);
+}
+
+#section-sportsnhealth header > button {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+#section-sportsnhealth header > button:hover {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+}
+
+#section-sportsnhealth .body-item {
+  width: 30rem;
+  height: 16rem;
+  margin-bottom: 3rem;
+}
+
+#section-sportsnhealth .body-item > p {
+  color: var(--color-black);
+  font-family: var(--font-open_sans);
+  font-size: 1.8rem;
+}
+
+/* Entertainment */
+
+#section-entertainment {
+  background-color: var(--color-primary);
+}
+
+#section-entertainment header > h2 {
+  color: var(--color-white);
+}
+
+#section-entertainment header > button {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+#section-entertainment header > button:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+#section-entertainment .section-body {
+  justify-content: space-evenly;
+  gap: 6rem;
+}
+
+#section-entertainment .body-item {
+  width: 36rem;
+  height: 36rem;
+}
+
+#section-entertainment .body-item:first-child {
+  width: 18rem;
+}
+
+#section-entertainment .body-item > p {
+  color: var(--color-white);
+  font-family: var(--font-open_sans);
+  font-size: 2rem;
+}
+
+/* Kidz */
+
+#section-kidz header > h2 {
+  color: var(--color-primary);
+}
+
+#section-kidz header > button {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+#section-kidz header > button:hover {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+}
+
+#section-kidz .section-body {
+  height: 36rem;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+#section-kidz .body-item {
+  max-width: 36rem;
+  max-height: 36rem;
+  justify-content: space-between;
+}
+
+/* RESTAURANT */
+
+#section-restaurant {
+  background-color: var(--color-primary);
+}
+
+#section-restaurant header > h2 {
+  color: var(--color-white);
+}
+
+#section-restaurant header > button {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+#section-restaurant header > button:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+#section-restaurant .section-body {
+  justify-content: space-evenly;
+  gap: 6rem;
+}
+
+#section-restaurant .body-item {
+  width: 36rem;
+  height: 36rem;
+}
+
+#section-restaurant .body-item:first-child {
+  width: 18rem;
+}
+
+#section-restaurant .body-item > p {
+  color: var(--color-white);
+  font-family: var(--font-open_sans);
+  font-size: 2rem;
+}
+
+/* Mine Css */
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.res_menu {
+  position: relative;
+  display: none;
+}
+.res_menu a {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+.res_icon div {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+.res_menu ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #000;
+  left: -170px;
+  top: 40px;
+  z-index: 999999 !important;
+  display: none;
+}
+.res_menu ul li a {
+  font-size: 17px;
+  padding: 15px 20px;
+  display: block;
+  width: 150px;
+  font-family: Tahoma;
+}
+
+.president {
+  background: #2f3542;
+  padding: 100px;
+}
+.president_container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.president_container div h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.president_container div p {
+  font-size: 1.8rem;
+  font-family: var(--font-open_sans);
+  color: #ededed;
+  text-align: justify;
+}
+
+.contact_map{
+  min-width: 1300px;
+}
+
+.contact_address_container{
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.contact_address_container div h3{
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  text-transform: capitalize;
+}
+.contact_address_container div ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact_address_container div ul li span{
+  font-family: var(--font-fira_sans);
+  font-size: 2rem;
+}
+.contact_address_container div p{
+  font-family: var(--font-fira_sans);
+  font-size: 2rem;
+  width: 200px;
+}
+
+
+.contact_faq_container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+}
+.contact_faq_container div{
+  margin-bottom: 30px;
+}
+.contact_faq_container div h3{
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  text-transform: capitalize;
+}
+
+.faq_flex{
+  display: flex;
+  gap: 50px;
+}
+
+.contact_faq_container div h3{
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  text-transform: capitalize;
+}
+.contact_faq_container div p{
+  font-family: var(--font-fira_sans);
+  font-size: 2rem;
+}
+
+.res_para{
+  max-width: 600px;
+  color: var(--color-black);
+  font-family: var(--font-open_sans);
+  font-size: 1.8rem;
+}
+
+
+
+
+@media (max-width: 920px) {
+  .res_menu {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+
+  #section-welcome h1 {
+    font-size: 2.8rem !important;
+  }
+
+  .president_container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  #section-clubhistory header > h2 {
+    font-size: 30px !important;
+  }
+
+  #section-clubhistory .body-item {
+    width: auto;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  .body-item > img {
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .his-gap {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+
+  #section-welcome {
+    margin: 10px;
+  }
+
+  #section-welcome > p {
+    width: auto;
+  }
+
+  #section-entertainment .body-item > p {
+    font-size: 1.7rem;
+  }
+
+  .president {
+    padding: 20px;
+  }
+
+  #section-sportsnhealth header > h2 {
+    color: var(--color-primary);
+    font-size: 20px;
+  }
+  .section-button {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .gap{display: none;}
+
+  #section-entertainment header > h2 {
+    font-size: 20px;
+  }
+
+  #section-kidz header > h2 {
+    font-size: 20px;
+  }
+
+  #section-kidz .section-body {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #section-restaurant header > h2 {
+    font-size: 20px;
+  }
+
+  .sec_title{
+    font-size: 20px;
+  }
+  .section-body {
+    height: auto;
+  }
+  #section-secondsec .body-item {
+    width: auto;
+    height: auto;
+  }
+  .res_para{
+    color: var(--color-black);
+    font-family: var(--font-open_sans);
+  }
+
+  .contact_map{
+    min-width: 350px;
+  }
+
+  .contact_address_container{
+    flex-direction: column;
+  }
+
+  .faq_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .contact_faq_container div h3{
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    text-transform: capitalize;
+    font-size: 2.7rem;
+  }
+  .contact_faq_container div p{
+    font-family: var(--font-fira_sans);
+    font-size: 1.7rem;
+  }
+
+  .body-item img{
+    width: 250px !important;
+  }
+
+  body > footer > .nav-container > button {
+    width: auto;
+    font-size: 1.2rem;
+    padding: 3px 10px;
+  }
+
+  #footer-copyright{
+    font-size: 13px;
+  }
+
+}
